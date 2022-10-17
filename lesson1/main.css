@@ -1,0 +1,47 @@
+body {
+
+    background-color: #ffd408;
+}
+
+.foto_simson_famely {
+    width: 400px;
+}
+.foto_homer {
+    width: 250px;
+}
+
+.foto_bart {
+    width: 250px;
+}
+
+.foto_liza {
+    width: 250px;
+}
+.simson_family {
+    text-align: center;
+    color: cornflowerblue;
+
+}
+.homer {
+    text-align: center;
+    color: cornflowerblue;
+
+}
+
+.bart {
+    text-align: center;
+    color: cornflowerblue;
+
+}
+
+.liza {
+    text-align: center;
+    color: cornflowerblue;
+
+}
+li {
+    color: cornflowerblue;
+}
+a {
+    text-decoration: none;
+}
