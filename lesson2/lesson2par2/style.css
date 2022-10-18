@@ -24,7 +24,14 @@ input {
 
     width: 25%;
     height: 15%;
-    border: 2px black;
+    border-bottom: 2px #000000;
     border-style: solid;
-    background: white;
+    background: #ffffff;
+}
+
+.icon {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
 }
