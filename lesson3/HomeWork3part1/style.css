@@ -1,4 +1,8 @@
+body {
+    margin-top: 60px;
 
+
+}
 
 .center {
     display: flex;
@@ -7,6 +11,9 @@
     margin: 0;
     text-align: center;
 
+
+
+
 }
 .column-1 {
     border-style: solid;
@@ -14,6 +21,8 @@
     height: 250px;
     width: 33%;
     margin: 20px;
+    box-sizing: border-box;
+
 
 }
 .text {
@@ -22,9 +31,45 @@
 }
 input {
 
-    width: 25%;
-    height: 15%;
+    height: 40px;
     border: 2px black;
     border-style: solid;
     background: white;
 }
+.fa-solid {
+    font-size: 36px;
+    color: gold;
+
+}
+.menu {
+    display:flex;
+    justify-content:center;
+    gap: 20px
+}
+
+.header {
+    display:flex;
+    justify-content: space-around;
+    gap: 10px
+}
+
+
+.icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border: 1px solid black;
+    text-align: center;
+    background: white;
+    position: relative;
+    top: 40px;
+    margin: 0 360px;
+
+
+}
+
+
+
+
+
+
