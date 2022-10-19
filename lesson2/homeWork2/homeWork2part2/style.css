@@ -1,0 +1,30 @@
+
+
+.center {
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+
+}
+.column-1 {
+    border-style: solid;
+    border-width: 1px;
+    height: 250px;
+    width: 33%;
+    margin: 20px;
+
+}
+.text {
+    margin: 20px;
+    color: silver;
+}
+input {
+
+    width: 25%;
+    height: 15%;
+    border: 2px black;
+    border-style: solid;
+    background: white;
+}

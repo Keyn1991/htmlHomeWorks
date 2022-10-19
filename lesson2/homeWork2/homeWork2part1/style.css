@@ -1,0 +1,46 @@
+
+.main {
+    color: aliceblue;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    height: 250px;
+    background: #246abc;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    margin: 0;
+}
+.footer {
+    height: 800px;
+    background: #246abc;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.column-3 {
+    height: 250px;
+    width: 35%;
+    background: #18467b;
+    margin: 20px;
+}
+
+
+.text {
+    margin-top: 110px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.text-contact {
+    margin-top: 400px;
+}
