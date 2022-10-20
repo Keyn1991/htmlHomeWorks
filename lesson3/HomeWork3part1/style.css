@@ -41,14 +41,12 @@ input {
     color: gold;
 
 }
-.menu {
-    display:flex;
-    justify-content:center;
-    gap: 20px
-}
+
+
 
 .header {
     display:flex;
+    position: relative;
     justify-content: space-around;
     gap: 10px
 }
@@ -61,9 +59,12 @@ input {
     border: 1px solid black;
     text-align: center;
     background: white;
-    position: relative;
-    top: 40px;
-    margin: 0 360px;
+    position: absolute;
+    top: -40px;
+
+    display: flex;
+    justify-content: space-around;
+    margin: 0 72px;
 
 
 }
