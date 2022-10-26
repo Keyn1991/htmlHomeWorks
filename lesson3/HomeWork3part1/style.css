@@ -61,7 +61,6 @@ input {
     background: white;
     position: absolute;
     top: -40px;
-
     display: flex;
     justify-content: space-around;
     margin: 0 72px;
