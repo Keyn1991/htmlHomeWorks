@@ -1,0 +1,163 @@
+body {
+    text-align: center;
+    margin: 10px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+margin: 10px;
+
+
+}
+.selection {
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+.target-one {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.target-two {
+    display: flex;
+    margin: 10px;
+    position: relative;
+    box-sizing: border-box;
+
+
+}
+
+
+
+.nav {
+    width: 100%;
+    height: 300px;
+    background: silver;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.main {
+    width: 75%;
+    height: 300px;
+    background: silver;
+    margin: 10px;
+
+
+
+}
+
+.footer_C {
+    width: 24%;
+    height: 275px;
+    background: silver;
+    margin-right: 10px;
+    position: relative;
+    bottom: 290px;
+    left: 10px;
+
+}
+.footer_D {
+    width: 24%;
+    height: 275px;
+    background: silver;
+    margin-right: 10px;
+    position: relative;
+    bottom: 290px;
+    left: 20px;
+
+}
+
+.footer_E {
+    width: 24%;
+    height: 275px;
+    background: silver;
+    position: relative;
+    bottom: 290px;
+    left: 27px;
+
+}
+
+.article {
+    width: 25%;
+    height: 600px;
+    background: silver;
+    margin-top: 10px;
+    margin-left: 25px;
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 0) and (max-width: 1000px) {
+
+    .nav {
+        width: 100%;
+        height: 200px;
+    }
+    .main {
+        width: 100%;
+        height: 200px;
+    }
+    .target-one {
+        position: relative;
+    }
+    .article {
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 350px;
+        padding: 0;
+        margin: 0;
+
+
+    }
+    .target-two {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+
+    }
+
+    .nav {
+        margin: 0 0 20px;
+
+    }
+    .main {
+        margin: 0;
+    }
+    .footer_C {
+        width: 33%;
+        height: 100px;
+        position: relative;
+        top: 10px;
+    }
+    .footer_D {
+        width: 33%;
+        height: 100px;
+        position: relative;
+        top: 10px;
+    }
+    .footer_E {
+        width: 33%;
+        height: 100px;
+        position: relative;
+        top: 10px;
+
+    }
+
+}
